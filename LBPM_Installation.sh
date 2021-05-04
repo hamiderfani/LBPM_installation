@@ -30,6 +30,7 @@ export MPI_DIR=/opt/openmpi/3.1.2
 
 make -j4 
 sudo make install
+cd ..
 ######################################################
 mkdir lbpm && cd $_
 
