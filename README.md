@@ -14,4 +14,5 @@ The file downloads, builds and installs the following packages one after each ot
       5. LBPM
 
 you can modify LBPM make options under cmake block in the bash file. 
-If the LBPM make step was passed without any error but the parallel examples were not run successfully you might need to run them manually with the installed mpirun executable in the location you installed OpenMPI 3.1.2 ($MPI_DIR). Something like: /opt/openmpi/3.1.2/bin/mpirun -n 8 '/home/hamidreg/lbpm3/lbpm/LBPM_BUILD/bin/lbpm_color_simulator'  input_morphdrainpp.db
+If the LBPM make step was passed without any error but the parallel examples were not run successfully you might need to run them manually with the installed mpirun executable in the location you installed OpenMPI 3.1.2 ($MPI_DIR). Something like: 
+/opt/openmpi/3.1.2/bin/mpirun -n 8 '/home/hamidreg/lbpm3/lbpm/LBPM_BUILD/bin/lbpm_color_simulator'  input_morphdrainpp.db
