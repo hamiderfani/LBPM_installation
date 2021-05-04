@@ -1,3 +1,5 @@
+## main LBPM package github repo: https://github.com/OPM/LBPM 
+## The bash file was completed after https://github.com/alitimer/LBPM_Installation, Thanks to Ali Zamani.
 # LBPM_installation
 This bash script helps to make the LBPM installation automatic. 
 LBPM might be incompatible with new versions of OpenMPI so we have included the OpenMPI 3.1.2 in the installation. 
@@ -16,3 +18,7 @@ The file downloads, builds and installs the following packages one after each ot
 you can modify LBPM make options under cmake block in the bash file. 
 If the LBPM make step was passed without any error but the parallel examples were not run successfully you might need to run them manually with the installed mpirun executable in the location you installed OpenMPI 3.1.2 ($MPI_DIR). Something like: 
 /opt/openmpi/3.1.2/bin/mpirun -n 8 '/home/hamidreg/lbpm3/lbpm/LBPM_BUILD/bin/lbpm_color_simulator'  input_morphdrainpp.db
+
+# The file was checked on Ubuntu 20.04 with an Intel i9 CPU. 
+
+I will try to add CUDA, and other optional packages like NETCDF to the bash file later. 
