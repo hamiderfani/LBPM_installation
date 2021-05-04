@@ -1,5 +1,6 @@
-#This was completed after https://github.com/alitimer/LBPM_Installation, Thanks to Ali Zamani.
+#!/bin/bash
 
+#This was completed after https://github.com/alitimer/LBPM_Installation, Thanks to Ali Zamani.
 
 #Dependencies, ignore if you have them installed. Some like texlive and doxygen are optional
 apt update
