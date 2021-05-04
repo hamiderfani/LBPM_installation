@@ -10,6 +10,8 @@ apt install cmake -y
 sudo apt install git
 sudo apt install gfortran-9
 sudo apt-get install gfortran
+sudo apt install python3-pip
+pip3 install numpy
 sudo apt install doxygen
 sudo apt install texlive
 
