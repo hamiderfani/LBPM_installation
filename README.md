@@ -1,5 +1,5 @@
 ## main LBPM package github repo: https://github.com/OPM/LBPM 
-# The bash file was completed after https://github.com/alitimer/LBPM_Installation, Thanks to Ali Zamani.
+ The bash file was completed after https://github.com/alitimer/LBPM_Installation, Thanks to Ali Zamani.
 # LBPM_installation
 This bash script helps to make the LBPM installation automatic. 
 LBPM might be incompatible with new versions of OpenMPI so we have included the OpenMPI 3.1.2 in the installation. 
