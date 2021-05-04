@@ -4,6 +4,8 @@
 This bash script helps to make the LBPM installation automatic. 
 LBPM might be incompatible with new versions of OpenMPI so we have included the OpenMPI 3.1.2 in the installation. 
 If you already have a newer version installed, you can install this version in a different folder, like one pre-inserted in the bash file. 
+
+
 ********NOTE*********
 Some dependencies like Doxygena and TexLive are optional and the LBPM will be successfully built without them. 
 **********************
